@@ -1,0 +1,49 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    background-color: white;
+}
+
+.first-column-style{
+    font-style: oblique;
+    color: black;
+}
+.second-column-style{
+    font-style: normal;
+    color: red;
+}
+.third-column-style{
+    font-style: normal;
+    color: black;
+}
+.fourth-column-style{
+    font-style: normal;
+    color: blue;
+}
+.fifth-column-style{
+    font-style: normal;
+    color: black;
+}
+.sixth-column-style{
+    font-style: normal;
+    color: black;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: lightgreen;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+
+
+div.outer-content{
+    align: left;
+    background-color: pink;
+    width: 75%;
+    padding-top: 20px;
+}
